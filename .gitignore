@@ -1,0 +1,11 @@
+/node_modules/
+/.git/
+/app/libs/
+/app/img/src/
+/app/sass/
+/app/js/common.js
+package-lock.json
+/**/_backstage
+/**/Thumbs.db
+/**/*.DS_Store
+*.psd
