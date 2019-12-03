@@ -64,11 +64,11 @@ gulp.task('styles', function() {
 gulp.task('scripts', function() {
 	return gulp.src([
 		'app/libs/modernizr-custom.js',
-		'app/libs/intlTelInput/intlTelInput.min.js',
 		'app/libs/jquery/dist/jquery.min.js',
 		'node_modules/bootstrap/dist/js/bootstrap.min.js',
 		'app/libs/magnific-popup/jquery.magnific-popup.min.js',
-		'app/js/common.js', // Always at the end
+		'app/libs/intlTelInput/intlTelInput-jquery.min.js',
+		'app/js/common.js',
 		'app/libs/lazysizes.min.js',
 		])
 	.pipe(concat('scripts.min.js'))

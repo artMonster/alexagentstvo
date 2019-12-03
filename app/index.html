@@ -32,53 +32,51 @@
 <body>
 
 	<header>
-		<div class="container">
-			<div class="row align-items-center justify-content-center">
-				<div class="col">
-					<nav class="navbar navbar-expand-lg navbar-light bg-light rounded px-0">
-						<a class="navbar-brand" href="#">
-							<picture>
-								<source type="image/webp" data-srcset="img/logotop.webp" />
-								<source type="image/png" data-srcset="img/logotop.png" />
-								<img data-src="img/logotop.png" alt=""  />
-							</picture>
-						</a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						</button>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light align-items-center">
+			<div class="container-fluid p-0">
+				<span class="navbar-brand order-2 order-lg-1">
+					<picture>
+						<source type="image/webp" data-srcset="img/logotop.webp" />
+						<source type="image/png" data-srcset="img/logotop.png" />
+						<img data-src="img/logotop.png" alt=""  />
+					</picture>
+				</span>
+				<button class="navbar-toggler order-3 order-lg-3" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-						<div class="collapse navbar-collapse" id="navbarsExample09">
-							<ul class="navbar-nav mx-auto">
-								<li class="nav-item active">
-									<a class="nav-link" href="#">Как стать дилером</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">О нас</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">Нашы преимущества</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="#">Что получает представитель</a>
-								</li>
-							</ul>
-							<div>
-								<button class="btn btn-primary">Хочу стать дилером</button>
-							</div>
-						</div>
-					</nav>
+				<div class="collapse navbar-collapse order-4 order-lg-2" id="navbarsExample07">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item">
+							<a class="nav-link anchor" href="#s1">Как стать дилером</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link anchor" href="#s3">О нас</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link anchor" href="#s3_2">Нашы преимущества</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link anchor" href="#s5">Что получает представитель</a>
+						</li>
+					</ul>
+
+				</div>
+				<div class="order-2 order-lg-4 mx-auto">
+					<button class="btn btn-primary m-0 popup"  data-mfp-src="#popup" data-effect="mfp-zoom-in">Хочу стать дилером</button>
 				</div>
 			</div>
-		</div>
+		</nav>
+
 	</header>
 
 	<main>
-		<section class="s0" data-bg-url="img/s0.webp">
+		<section class="s0" data-bgurl="img/s0.webp">
 			<div class="container h-100">
-				<div class="row vh-100 align-items-center justify-content-end">
-					<div class="col-md-8">
+				<div class="row vh-100 align-items-end align-items-lg-center justify-content-end">
+					<div class="col-12 col-md-9 col-lg-10 col-xl-8">
 						<div class="card bg-primary">
-							<div class="card-header">
+							<div class="card-header text-center text-md-left">
 								<p class="h1 upp text-white">Начни свою успешную карьеру <strong>став дилером адисем!</strong></p>
 							</div>
 						</div>
@@ -86,133 +84,182 @@
 				</div>
 			</div>
 		</section>
-		<section class="s1">
+		<section class="s1" id="s1">
 			<div class="container">
 				<div class="row align-items-center justify-content-center">
-					<div class="col-md-8 text-center">
-						<p class="h2">как стать дилером</p>
-						<p class="h3 font-weight-light">как стать дилером</p>
-						<p class="lead"><strong>АДИСЕМ подходит индивидуально к каждому клиенту и старается предложить Вам наиболее комфортные и взаимовыгодные условия для работы;</strong></p>
+					<div class="col-lg-10 col-xl-8 text-center">
+						<p class="h2 upp">как стать дилером</p>
+						<p class="h3 upp title">Что нужно сделать</p>
+						<p class="lead">АДИСЕМ подходит индивидуально к каждому клиенту и старается предложить Вам наиболее комфортные и взаимовыгодные условия для работы;</p>
 					</div>
 				</div>
-				<div class="row align-items-center justify-content-center">
-					<div class="col-md-3">
-						<div class="card">
+				<div class="row justify-content-around justify-content-xl-between mb-5 mb-lg-0">
+					<div class="col-md-6 col-lg-5 col-xl-3">
+						<div class="card" data-bgurl="img/s1_ico1.webp">
+							<div class="icon">
+								<span class="badge badge-pill badge-primary lead">1</span>
+								<img data-src="img/svg/online-shop.svg" alt="" class="img-fluid" />
+							</div>
 							<div class="card-body text-center">
-								<p class="h6">Оставить заявку со своими контактами</p>
-								<p>на сайте или позвонить на горячую линию  по тел. 0 800-210-210, а также на мобильные 067-435-53-80 и 067-431-26-90;</p>
+								<p class="h5 upp">Оставить заявку со своими контактами</p>
+								<p>на сайте или позвонить на горячую линию по тел.: 0 800 210 210, а также на мобильные 067-435-53-80 и 067-431-26-90;</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3">
-						<div class="card">
+					<div class="col-md-6 col-lg-5 col-xl-3">
+						<div class="card" data-bgurl="img/s1_ico2.webp">
+							<div class="icon">
+								<span class="badge badge-pill badge-primary lead">2</span>
+								<img data-src="img/svg/customer-service.svg" alt="" class="img-fluid" />
+							</div>
 							<div class="card-body text-center">
-								<p class="h6">В течении суток с Вами свяжется представитель</p>
+								<p class="h5 upp">В течении суток с Вами свяжется представитель</p>
 								<p>компании для уточнения информации и предложит удобный вариант сотрудничества работы;</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3">
-						<div class="card">
+					<div class="col-md-6 col-lg-5 col-xl-3">
+						<div class="card" data-bgurl="img/s1_ico3.webp">
+							<div class="icon">
+								<span class="badge badge-pill badge-primary lead">3</span>
+								<img data-src="img/svg/profile.svg" alt="" class="img-fluid" />
+							</div>
 							<div class="card-body text-center">
-								<p class="h6">Ваши данные заносятся на сайт</p>
+								
+								<p class="h5 upp">Ваши данные заносятся на сайт</p>
 								<p>На первых этапах сотрудничества  вашы данные заносятьс на сайт www.adisem.com.ua в раздел точка продаж, где клиент сможет увидеть Ваши контакты.</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3">
-						<div class="card">
+					<div class="col-md-6 col-lg-5 col-xl-3">
+						<div class="card" data-bgurl="img/s1_ico4.webp">
+							<div class="icon">
+								<span class="badge badge-pill badge-primary lead">4</span>
+								<img data-src="img/svg/content.svg" alt="" class="img-fluid" />
+							</div>
 							<div class="card-body text-center">
-								<p class="h6">Также Вы получите информацию дилер-центра,</p>
+								
+								<p class="h5 upp">Также Вы получите информацию дилер-центра,</p>
 								<p>все его контакты и электронные адреса. Менеджеры ДЦ с радостью ответят на все вопросы – просчеты, технические консультации, гарантийные обязательства и т.д.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="row align-items-center justify-content-center">
-					<div class="col-md-8 text-center">
-						<p class="lead"><strong>Все интересующие Вас вопросы Вы можете задать представителю компании по телефону или написать в электронном письме <a href="mailto:diller@adisem.ua">diller@adisem.ua</a></strong></p>
+					<div class="col-lg-10 col-xl-8 text-center ">
+						<p class="lead text-secondary">Все интересующие Вас вопросы Вы можете задать представителю компании по телефону или написать в электронном письме <a href="mailto:diller@adisem.ua">diller@adisem.ua</a></p>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="s2" data-bg-url="img/s2.webp">
+		<section class="s2" data-bgurl="img/s2.webp">
 			<div class="container-fluid">
-				<div class="row align-items-center justify-content-end">
-					<div class="col-md-6">
-						<p class="h1 upp text-white">Дилером может стать каждый, <strong>представителем – лучший!</strong></p>
+				<div class="row align-items-center justify-content-center justify-content-lg-end">
+					<div class="col-11 col-xl-6">
+						<p class="h1 upp text-white">Дилером может стать каждый, <b>представителем – лучший!</b></p>
 					</div>
-					<div class="col-md-6">
-						<p class="h5 text-white">Все интересующие Вас вопросы Вы можете задать представителю компании по телефону  <strong class="h2 text-primary">067-435-53-80</strong> и <strong class="h2 text-primary">067-431-26-90</strong> или написать в электронном письме <strong class="h2">diller@adisem.ua</strong>
+					<div class="col-11 col-lg-10 col-xl-6">
+						<hr class="d-block d-xl-none" />
+						<p class="h5 text-white">Все интересующие Вас вопросы Вы можете задать представителю компании по телефону</p>
+						<p class="h5 text-white"><span class="h2 text-success"> 067-435-53-80 </span> и<span class="h2 text-success"> 067-431-26-90 </span></p>
+						
+						<p class="h5 text-white">или написать в электронном письме <span class="h2 text-white">diller@adisem.ua</span>
 						</p>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="s3">
+		<section class="s3" id="s3">
 			<div class="container">
 				<div class="row align-items-center justify-content-center">
-					<div class="col-md-8 text-center">
-						<p class="h2">О нас</p>
+					<div class="col-lg-8 text-center">
+						<p class="h2 upp">О нас</p>
 					</div>
-					<div class="col-md-12">
-						<div class="wall" data-bg-url="img/s3_p1.webp">
-							<p class="h6 badge badge-secondary">На рынке с 1995 года</p>
-							<div class="row">
-								<div class="col-md-6">
-									<p class="h3">Компания АДИСЕМ</p>
-									<p>достаточно известна по всей территории Украины, завоевала доверие покупателей и имеет официальные представительства в каждом регионе страны.</p>
-									<button class="btn btn-primary">Перейти на сайт</button>
-									<button class="btn btn-light">Смотреть видео <span>
-										<img data-src="img/svg/play-button.svg" alt=""  />
-									</span></button>
+					<div class="col-lg-12 mb-5">
+						<div class="row no-gutters bg-warning" data-bgurl="img/s3_p1.webp">
+							<div class="col-md-8 col-lg-6">
+								<p class="badge badge-secondary"><span class="h6">На рынке с 1995 года</span></p>
+								<div class="jumbotron">
+									<p class="h3 upp text-secondary">Компания АДИСЕМ</p>
+									<p class="col-md-10 col-xl-9 p-0"><b>достаточно известна по всей территории Украины, завоевала доверие покупателей и имеет официальные представительства в каждом регионе страны.</b></p>
+									<a href="http://papaweb.name" target="_blank" class="btn btn-primary">Перейти на сайт</a>
+									<button class="btn btn-light popup-youtube" data-mfp-src="http://www.youtube.com/watch?v=_5dfRQ7f_1M" data-effect="mfp-zoom-in"><span>Смотреть видео</span>
+										<span class="icon">
+											<img data-src="img/svg/play-button.svg" alt="" class="img-fluid" />
+										</span>
+									</button>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-12 text-center">
-						<p class="h3">Мы делаем Вас богаче:</p>
+					<div class="col-lg-12 text-center mt-4" id="s3_2">
+						<p class="h3 upp title">Мы делаем Вас богаче:</p>
 					</div>
-					<div class="col-md-6 text-center">
+					<div class="col-lg-5 col-xl-6 text-center order-3 order-lg-1">
 						<picture>
 							<source type="image/webp" data-srcset="img/s3_p2.webp" />
 							<source type="image/png" data-srcset="img/s3_p2.png" />
-							<img data-src="img/s3_p2.png" alt=""  />
+							<img data-src="img/s3_p2.png" alt=""  class="img-fluid" />
 						</picture>
 					</div>
-					<div class="col-md-6">
-						<div class="media">
-							<img data-src="img/svg/wallet.svg" alt=""  />
-							<div class="media-body">
-								<p class=""><strong class="h5">деньги </strong>Вы легко зарабатываете с брендом АДИСЕМ;</p>
+					<div class="col-lg-7 col-xl-6 text-center order-1 order-lg-2">
+						<div class="row no-gutters align-items-center py-3 pl-0 pl-lg-4">
+							<div class="col-auto pl-0 pl-lg-5">
+								<img data-src="img/svg/wallet.svg" alt="" />
+							</div>
+							<div class="col-auto mx-3">
+								<p class="h4 upp">деньги </p>
+							</div>
+							<div class="col-12 col-md py-3 py-md-0">
+								<p class="text-left">Вы легко зарабатываете с брендом АДИСЕМ;</p>
 							</div>
 						</div>
-						<div class="media">
-							<img data-src="img/svg/wallet.svg" alt=""  />
-							<div class="media-body">
-								<p class=""><strong class="h5">знания </strong>Вы легко зарабатываете с брендом АДИСЕМ;</p>
+						<div class="row no-gutters align-items-center py-3">
+							<div class="col-auto">
+								<img data-src="img/svg/idea.svg" alt="" />
+							</div>
+							<div class="col-auto mx-3">
+								<p class="h4 upp">знания </p>
+							</div>
+							<div class="col-12 col-md py-3 py-md-0">
+								<p class="text-left">Вы легко зарабатываете с брендом АДИСЕМ;</p>
 							</div>
 						</div>
-						<div class="media">
-							<img data-src="img/svg/group.svg" alt=""  />
-							<div class="media-body">
-								<p class=""><strong class="h5">клиенты </strong>стабильность компании обеспечивает доверие все большего числа постоянных клиентов</p>
+						<div class="row no-gutters align-items-center py-3 pl-0 pl-lg-4">
+							<div class="col-auto pl-0 pl-lg-5">
+								<img data-src="img/svg/group.svg" alt="" />
+							</div>
+							<div class="col-auto mx-3">
+								<p class="h4 upp">клиенты </p>
+							</div>
+							<div class="col-12 col-md py-3 py-md-0">
+								<p class="text-left">стабильность компании обеспечивает доверие все большего числа постоянных клиентов;</p>
 							</div>
 						</div>
-						<div class="media">
-							<img data-src="img/svg/customer.svg" alt=""  />
-							<div class="media-body">
-								<p class=""><strong class="h5">репутация </strong>проверенные поставщики и неизменное качество позволяют гордиться результатами своего труда;</p>
+						<div class="row no-gutters align-items-center py-3">
+							<div class="col-auto">
+								<img data-src="img/svg/customer.svg" alt="" />
+							</div>
+							<div class="col-auto mx-3">
+								<p class="h4 upp">репутация </p>
+							</div>
+							<div class="col-12 col-md py-3 py-md-0">
+								<p class="text-left">проверенные поставщики и неизменное качество позволяют гордиться результатами своего труда;</p>
 							</div>
 						</div>
-						<div class="media">
-							<img data-src="img/svg/connection.svg" alt=""  />
-							<div class="media-body">
-								<p class=""><strong class="h5">Друзья </strong>коллектив единомышленников, готовых всегда прийти на помощь</p>
+						<div class="row no-gutters align-items-center py-3 pl-0 pl-lg-4">
+							<div class="col-auto pl-0 pl-lg-5">
+								<img data-src="img/svg/connection.svg" alt="" />
+							</div>
+							<div class="col-auto mx-3">
+								<p class="h4 upp">Друзья </p>
+							</div>
+							<div class="col-12 col-md py-3 py-md-0">
+								<p class="text-left">коллектив единомышленников, готовых всегда прийти на помощь.</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-sm-10 col-lg-8 col-xl-6 order-2 order-lg-3">
 						<div class="card bg-primary">
 							<div class="card-header text-center">
 								<p class="h5 text-white"><strong>Все что должно быть у Вас - это желание работать в команде!</strong></p>
@@ -222,78 +269,160 @@
 				</div>
 			</div>
 		</section>
-		<section class="s4" data-bg-url="img/s4.webp">
+		<section class="s4" data-bgurl="img/s4.webp">
 			<div class="container">
-				<div class="row align-items-center justify-content-between">
-					<div class="col-md-8">
-						<p class="h2">что получает представитель</p>
+				<div class="row align-items-center justify-content-center">
+					<div class="col-lg-10 text-center">
+						<p class="h2 upp">что получает представитель</p>
 						<p class="lead">Работать с АДИСЕМ – значит стать одним из важных «колец» одной цепочки, где все между собой связанны: клиент – представитель (дилер) – дилер-центр – производство-логистика – представитель (дилер) – клиент, где все мы одно целое!</p>
 					</div>
-					<div class="col-md-5">
+				</div>
+				<div class="row align-items-end justify-content-between">
+					<div class="col-lg-6 col-xl-5">
 						<div class="card">
-							<div class="card-body">
-								<ul>
-									<li><span class="bg-primary">1</span> Работа в СРМ, сопровождение клиента</li>
-									<li><span class="bg-primary">2</span> Работа под известной торговой маркой имеющей высокую степень доверия клиентов и партнеров</li>
-									<li><span class="bg-primary">3</span> Консультации по бухгалтерским, юридическим, управленческим вопросам;</li>
-								</ul>
+							<div class="card-body p-3">
+								<div class="d-flex align-items-start py-3">
+									<div class="badge-list bg-primary mx-4"><strong>1</strong></div>
+									<p><strong>Работа в СРМ, сопровождение клиента;</strong></p>
+								</div>
+								<div class="d-flex align-items-start py-3">
+									<div class="badge-list bg-primary mx-4"><strong>2</strong></div>
+									<p><strong>Работа под известной торговой маркой имеющей высокую степень доверия клиентов и партнеров;</strong></p>
+								</div>
+								<div class="d-flex align-items-start py-3">
+									<div class="badge-list bg-primary mx-4"><strong>3</strong></div>
+									<p><strong>Консультации по бухгалтерским, юридическим, управленческим вопросам;</strong></p>
+								</div>
 							</div>
 							<div class="card-footer bg-primary text-center"></div>
 						</div>
 					</div>
-					<div class="col-md-5">
+					<div class="col-lg-6 col-xl-5">
 						<div class="card">
-							<div class="card-body">
-								<ul>
-									<li><span class="bg-primary">4</span> Поддержка на всех этапах работы
-										<ul>
-											<li>обучение менеджеров, замерщиков и монтажников;</li>
-											<li>шеф-замеры, шев-монтажи, партнерский аудит;</li>
-											<li>бесплатное программное обеспечение;</li>
-											<li>помощь конструкторского отдела.</li>
-										</ul>
-									</li>
-									<li><span class="bg-primary">5</span> Минимальные сроки изготовления даже во время сезона, профессиональная логистика;</li>
-								</ul>
+							<div class="card-body p-3">
+								<div class="d-flex align-items-start py-3">
+									<div class="badge-list bg-primary mx-4"><strong>4</strong></div>
+									<p><strong>Поддержка на всех этапах работы;</strong></p>
+								</div>
+								<div class="d-flex align-items-start pb-2 pb-lg-0">
+									<div class="h4 badge-list text-danger mx-4 p-0 text-right">•</div>
+									<p class="small"><b>обучение менеджеров, замерщиков и монтажников;</b></p>
+								</div>
+								<div class="d-flex align-items-start pb-2 pb-lg-0">
+									<div class="h4 badge-list text-danger mx-4 p-0 text-right">•</div>
+									<p class="small"><b>шеф-замеры, шев-монтажи, партнерский аудит;</b></p>
+								</div>
+								<div class="d-flex align-items-start pb-2 pb-lg-0">
+									<div class="h4 badge-list p-0 text-danger mx-4 text-right">•</div>
+									<p class="small"><b>бесплатное программное обеспечение;</b></p>
+								</div>
+								<div class="d-flex align-items-start">
+									<div class="h4 badge-list text-danger mx-4 p-0 text-right">•</div>
+									<p class="small"><b>помощь конструкторского отдела.</b></p>
+								</div>
+								<div class="d-flex align-items-start py-3">
+									<div class="badge-list bg-primary mx-4"><strong>5</strong></div>
+									<p><strong>Минимальные сроки изготовления даже во время сезона, профессиональная логистика.</strong></p>
+								</div>
 							</div>
-							<div class="card-footer bg-primary text-center"></div>
+							<div class="card-footer bg-primary"></div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="s5" data-bg-url="img/s5.webp">
+		<section class="s5" data-bgurl="img/s5.webp" id="s5">
 			<div class="container">
-				<div class="row align-items-center justify-content-between">
-					<div class="col-md-10">
-						<p class="lead">Со своей стороны компания АДИСЕМ проводит испытания соответствия корпоративным стандартам. По всей территории Украины действуют  рекомендуемые правила работы: </p>
+				<div class="row align-items-center justify-content-center">
+					<div class="col-lg-10 mb-5">
+						<p class="lead text-center text-secondary">Со своей стороны компания АДИСЕМ проводит испытания соответствия корпоративным стандартам. По всей территории Украины действуют  рекомендуемые правила работы:</p>
 					</div>
-					<div class="col-md-5">
-						<ul>
-							<li><span class="bg-primary">1</span> высокое качество обслуживания клиентов</li>
-							<li><span class="bg-primary">2</span> грамотность персонала</li>
-							<li><span class="bg-primary">3</span> монтаж согласно инструкций производителя и ГОСТа Украины;</li>
-						</ul>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row no-gutters align-items-start justify-content-between">
+					<div class="col-md-7 col-lg-5 col-xl-4">
+						<div class="d-flex align-items-center py-4">
+							<div class="badge-list bg-primary mr-4"><b>1</b></div>
+							<b>высокое качество обслуживания клиентов;</b>
+						</div>
+						<div class="d-flex align-items-center py-4">
+							<div class="badge-list bg-primary mr-4"><b>2</b></div>
+							<b>грамотность персонала;</b>
+						</div>
+						<div class="d-flex align-items-center py-4">
+							<div class="badge-list bg-primary mr-4"><b>3</b></div>
+							<b>монтаж согласно инструкций производителя и ГОСТа Украины;</b>
+						</div>
 					</div>
-					<div class="col-md-5">
-						<ul>
-							<li><span class="bg-primary">4</span> гарантийное и послегарантийное обслуживание клиентов</li>
-							<li><span class="bg-primary">5</span> рекомендованная стоимость для клиента по всей территории Украины.</li>
-							<li><span></span> <button class="btn btn-primary">Стать дилером</button></li>
-						</ul>
+					<div class="col-md-7 col-lg-5 col-xl-4">
+						<div class="d-flex align-items-center py-4">
+							<div class="badge-list bg-primary mr-4"><b>4</b></div>
+							<b>гарантийное и послегарантийное обслуживание клиентов;</b>
+						</div>
+						<div class="d-flex align-items-center py-4">
+							<div class="badge-list bg-primary mr-4"><b>5</b></div>
+							<b>рекомендованная стоимость для клиента по всей территории Украины.</b>
+						</div>
+						<div class="d-flex align-items-center">
+							<div class="badge-list mr-4"><b></b></div>
+							<button class="btn btn-primary popup"  data-mfp-src="#popup" data-effect="mfp-zoom-in">Стать дилером</button>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 	</main>
 	<footer>
-		<p class="text-center">&copy; Copyright All rights reserved.</p>
+		<p class="text-center text-white">&copy; Copyright All rights reserved.</p>
 	</footer>
 
 	<!-- // Modals -->
 
+	<div id="popup" class="mfp-hide container mfp-with-anim">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-sm-10 col-md-8 col-lg-6 col-xl-5">
+        <div class="card shadow border-0 mt-5">
+          <div class="card-body px-4 py-4 px-md-5 py-md-5">            
+
+            <form role="form" action="javascript:void(null);" method="post">
+
+            	<div class="text-center mb-3">
+              <p class="h3 upp">Забронируйте место
+              	<small class="d-block text-success">заполните форму чтобы стать дилером</small>
+              </p>
+            </div>
+
+              <div class="error-message"></div>
+
+              <div class="loader">
+              	<img data-src="img/svg/refrescar.svg" alt="" />
+              </div>
+
+              <fieldset class="fields p-2">              
+                <div class="form-group">
+                  <label for="inputName" class="text-muted small upp"><small>Введите Ваше имя:</small></label>
+                  <input type="text" class="form-control" id="inputName" placeholder="ВАШЕ ИМЯ" name="name">
+                </div>
+                <div class="form-group">
+                  <label for="inputPhone" class=" text-muted small upp"><small>Введите Ваш номер телефона:</small></label>
+                  <input type="tel" class="form-control" id="inputPhone" placeholder="ВАШ ТЕЛЕФОН" name="phone">
+                </div>
+                <button type="submit" class="btn btn-success btn-block btn-lg">Стать дилером
+                  <span><img data-src="img/right-arrow3.svg" alt="" class="lazyload pl-2"></span>
+                </button>
+              </fieldset>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 	<link rel="stylesheet" href="css/main.min.css">
-	<script src="js/scripts.min.js" async></script>
+	<script src="js/scripts.min.js"></script>
 
 </body>
 
